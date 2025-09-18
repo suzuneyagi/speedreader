@@ -6,7 +6,8 @@ Mariia Minieieva, Suzune Yagi
     * https://osera.cs.grinnell.edu/ttap/data-structures-labs/style-guide.html
     * https://docs.oracle.com/en/java/javase/17/docs/api/java.desktop/java/awt/Graphics2D.html
     * David Rhoades (Course Mentor)
-    * giyVSCode
+    * Visual Studio Code 
+    * Oracle, OpenJDK compiler
 
     Usability Tests
     * TwoLeaves
@@ -45,7 +46,9 @@ Mariia Minieieva, Suzune Yagi
         How did the day end for the narrator and his family?
     * https://www.k5learning.com/reading-comprehension-worksheets/third-grade-3/childrens-stories/amusement-park-problem
 
-    Test participant: 
+    Test participant: Meryem Koksal (koksalme@grinnell.edu)
 
     The result:
     Did your participants demonstrate that they were able to comprehend what they were reading with your speed reader?
+    The participant could answer all the questions correctly when we allowed her to read the exerpt on her own and used 250 wpm. She answered three out of five 
+    questions at 350 wpm and four out of five questions at 500 wpm. This result demonstrated that the participant could comprehend the texts even when reading with high speed with our speed reader, although the accuracy went slightly lower.

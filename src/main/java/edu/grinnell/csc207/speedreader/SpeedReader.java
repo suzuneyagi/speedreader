@@ -1,6 +1,4 @@
 package edu.grinnell.csc207.speedreader;
-import java.util.Scanner;
-import java.io.File;
 import java.io.IOException;
 import java.awt.*;
 import java.lang.Integer;
@@ -45,7 +43,7 @@ public class SpeedReader{
                         g.setColor(Color.BLACK);
                         g.drawString(wg.next(), 100, 100);
 
-                        Thread.sleep(wpm);
+                        Thread.sleep(60000/wpm);
                     }
 
                     System.out.println("The number of words: " + wg.getWordCount() + "\n");
@@ -58,33 +56,4 @@ public class SpeedReader{
             }
         }
     }
-
-    
-
-    // public static void demonstratePanel() {
-    //     DrawingPanel panel = new DrawingPanel(400, 300);
-    //     Graphics g = panel.getGraphics();
-    //     Font f = new Font("Courier", Font.BOLD, 46);
-    //     g.setFont(f);
-    //     try{
-    //         WordGenerator wg = new WordGenerator("our_file.txt");
-    //         g.drawString(wg.next(), 100, 100);
-    //     } catch(IOException e) {
-    //         System.out.println("Error reading file: " + e.getMessage());
-    //     }
-    // }
-
-    // public static void printStaggered() throws InterruptedException {
-    //     try{
-    //         while(true) {
-    //             System.out.println("Hello World!");The names and Grinnell emails of your participant(s).
-    //             Thread.sleep(1000);
-    //         }
-    //     } catch (InterruptedException e) { 
-    //         Thread.currentThread().interrupt(); 
-    //     }
-    // }
-
-
-
 }
