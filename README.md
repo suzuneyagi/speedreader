@@ -6,6 +6,7 @@ Mariia Minieieva, Suzune Yagi
     * https://osera.cs.grinnell.edu/ttap/data-structures-labs/style-guide.html
     * https://docs.oracle.com/en/java/javase/17/docs/api/java.desktop/java/awt/Graphics2D.html
     * David Rhoades (Course Mentor)
+    * giyVSCode
 
     Usability Tests
     * TwoLeaves
