@@ -15,7 +15,7 @@ public class SpeedReader{
      * @param height the height of the graphical panel.
      * @param wpm word per minute; the speed the words are shown.
      * @param fontsize the size of the font used in the graphical panel.
-     * @throws InterruptedException if an in-valid file name is given.
+     * @throws InterruptedException if an in-valid filgit e name is given.
      */
     public static void main(String[] args) throws InterruptedException{
         if (args.length != 5){
@@ -24,8 +24,8 @@ public class SpeedReader{
             String filename = args[0];
             int width = Integer.parseInt(args[1]);
             int height = Integer.parseInt(args[2]);
-            int wpm = Integer.parseInt(args[3]);
-            int fontsize = Integer.parseInt(args[4]);
+            int fontsize = Integer.parseInt(args[3]);
+            int wpm = Integer.parseInt(args[4]);
 
             DrawingPanel panel = new DrawingPanel(width, height);
             Graphics g = panel.getGraphics();
