@@ -9,6 +9,11 @@ Mariia Minieieva, Suzune Yagi
     * Visual Studio Code 
     * Oracle, OpenJDK compiler
 
+    Final submission change log:
+    * Fixed indentation in SpeedReader.java and WordGenerator.java
+    * Added javadoc comments for all functions in SpeedReader.java and WordGenerator.java
+    * Fixed the order of the command line arguments in SpeedReader.java
+
     Usability Tests
     * TwoLeaves
     * Questions
